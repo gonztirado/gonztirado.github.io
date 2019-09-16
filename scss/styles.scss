@@ -455,7 +455,8 @@ footer {
 
     p {
         color: $text;
-        margin: 10px;        
+        margin: 10px;
+        text-align: justify;        
     }
 }
 
@@ -532,6 +533,7 @@ footer {
         color: $text;
         font-size: 0.9em;
         margin: 0;
+        text-align: justify;
     }
 }
 
@@ -617,7 +619,8 @@ footer {
         margin: 0;
         color: $text;
         font-size: 0.9em;
-        margin: 10px;   
+        margin: 10px; 
+        text-align: justify;  
     }
 
     ul {
@@ -673,7 +676,8 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
-    }
+        text-align: justify;
+    }        
 }
 
 .no-image {
@@ -900,7 +904,7 @@ footer {
         text-align: center;
 
         p {
-            text-align: left;
+            text-align: justify;
         }
     }
 
